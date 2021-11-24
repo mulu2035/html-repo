@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=C_0ptaTCFvQ:introduction to computer
+https://www.youtube.com/watch?v=SbQps7oBdfU:basic computer skill
+https://www.youtube.com/watch?v=KckaSLwuLCM: html class1
+https://www.youtube.com/watch?v=aJqIXGUmW_M:html class 2
+https://www.youtube.com/watch?v=g86QGEOEsqo:applle website development
+https://www.youtube.com/watch?v=cWqmE5sc_cU:steps to delope apple website
+https://www.youtube.com/watch?v=SZEzGcBTGks:css class1
+https://www.youtube.com/watch?v=eMBZQ62D4uE:properties of css
+https://zellwk.com/blog/9-important-css-properties-you-must-know/:properties of html

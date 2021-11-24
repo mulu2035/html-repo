@@ -1,0 +1,189 @@
+Applying CSS properties
+*********************** 
+
+	- All of CSS properties available for use 
+		https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+	NOTE: CSS properties are like words in a language. You don't have to know every single word in the dictionary to form a sentence and communicate. The more words you know the better. But the key is in effectively using the ones you know. 
+
+Most common properties
+********************** 
+	
+	- Most common CSS properties (Useful link) 
+		https://zellwk.com/blog/9-important-css-properties-you-must-know/
+
+	- Display:
+	**********
+	Determines how an element is going to be displayed on a browser. By default, the block mode is assumed. 
+
+		- block (Default) 
+		- none
+		- inline-block
+		- flex
+		- Ex: 
+			display: inline-block 
+
+	- Position:
+	*********** 
+		- relative
+		- absolute
+		- fixed
+
+	- Width and Height:
+	******************* 
+	Used to set the width and height of HTML elements
+		
+		- width 
+		- max-width 
+		- min-width
+		- In px, em, rem, %, auto, inherit, etc ...
+		- Ex: 
+			width: 960px;
+			max-width: 100%;  
+
+	- Margin & Padding:
+	*******************
+	Dictate the spaces between elements
+
+		- Difference between margin and padding 
+			- Margin is outside of the border  
+			- Padding is inside the border 
+
+		- Representation  
+			margin-top
+			margin-right
+			margin-bottom
+			margin-left
+
+		- Simplified  
+			margin: 20px 10px 19px 12px;
+			margin: 20px 10px 19px;
+			margin: 20px 10px;
+			margin: 20px; 
+		 
+		- Tip: margin: 0 auto - is used to center a div 
+
+	- Borders: 
+	**********
+	Identifies the border of an element 
+
+		- Can have a specific 
+			- border-width
+			- border-style 
+			- border-color 	
+			- Ex: 
+				border: 1px solid black; 
+
+	- Backgrounds:
+	************** 
+
+	The background of the HTML element. Could be an image or color
+		- background-color 
+		- background-image
+		- background-position 
+		Ex: 
+			background: #ccc image-url('someBackgroundImage.png') left top no-repeat;
+
+	- Color:
+	********
+	Color of text, border, background etc 
+		- Takes on a hex value or a rgb value
+		- HEX is just a hexadecimal representation of the RGB numbers 
+			- Browsers understand both 
+			- HEX color uses a mix of six numbers
+				ex: color: #ff0000 
+			- RGB color uses three sets of three numbers 
+				ex: color: rgb(1,97,189)
+
+
+	- Floats:
+	*********
+	Position the edge of the targeted HTML content at the edge of one side of the parent container 
+
+		- left 
+		- right 
+		- none 
+		Ex: 
+			float: right 
+
+		- Clearing floats
+			clear: both
+			clear: left
+			clear: right 
+			- Ex: Common way 
+				<div style="clear: both;" />
+				
+				Other way 
+				.containerClass:after {
+				  content: "";
+				  display: table;
+				  clear: both;
+				}
+
+	- Fonts:
+	********
+
+	The fonts to be used when displaying texts 
+
+		- font-family
+		- font-size
+		- font-weight
+		- font-style
+		- line-height 
+
+		- Hosting fonts locally 
+			- https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+			(Custom Fonts section)
+
+			Ex: 
+			@font-face {
+				font-family: "CustomFont";
+				src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+				src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+				url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+				url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+			}
+
+		- Using Google Fonts
+			- https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/
+
+			Ex: 
+			 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+
+
+	- Priority order 
+	***************** 
+		- The most specific definition gets priority 
+		- !important gets precedence 
+		- Inline styling gets precedence over class definitions  
+
+
+Practice Exercise
+*****************
+
+  Puppy lovers page 
+    - Create the "Puppy lovers page" based on the Design 
+		- Working code will be sent to you on Friday for reference 
+
+
+This week's assignment  
+***********************  
+
+	- Chrome Developer's Tool Crash Course 
+	 - https://www.youtube.com/watch?v=x4q86IjJFag
+
+	- Watch the Step by Step video on how to build Apple's website 
+		- https://www.youtube.com/watch?v=cWqmE5sc_cU 
+
+
+
+
+
+
+
+
+
+
+
+
+

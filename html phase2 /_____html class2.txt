@@ -1,0 +1,171 @@
+Creating HTML pages 
+******************* 
+
+  NOTE (Recommended approach): 
+  ****************************
+
+    Pay Attention!!
+    ***************  
+      - A single spelling error can make your html page not to work. This usually takes a lot of your time to fix and be the cause of frustration
+
+      Solution:
+        - Being organized helps you a lot  
+          - All of your documents need to be organized in their own folder 
+
+        - Formatting is your best friend 
+          - Install Prettier 
+
+        - Every time you write a single line make sure everything is working and formatted correctly before you start the next line of code. 
+
+        - Being able to find these simple errors on your own is what the training is. NOT just knowing what the tags are 
+        
+        - Make sure you are in your best mental state when you are working on this 
+          - It is better to take a break and come back to it as this demands sharp focus 
+
+    Master VS Code and Chrome 
+    ************************* 
+    
+      - Make sure you understand how to use your VS, Chrome and File Explorer together effectively  
+        - VS Code 
+          - Useful extensions
+
+          - Send with the authors 
+
+            Emmet (learn how to use it)
+              https://www.youtube.com/watch?v=5BIAdWNcr8Y
+              
+            Main ones 
+              - Prettier 
+
+              - Open in browser
+
+            Others 
+              Visual 
+                - Material theme and icons
+                - Bracket colorizer
+                - Indent rainbow 
+
+              Functional
+                - CSS Peek 
+                - JS Snippet 
+                - Auto rename tag 
+                - Live Server 
+    
+    DON'T RUSH!! 
+    ************ 
+      - If there is a single thing you don't understand, do NOT move to the next line before you clearly understand it 
+
+      - One way to double check if you understand it is to ask yourself WHY you do the part you are doing. 
+      Now HOW to do it but WHY. If you can't answer the WHY that means you don't understand it. 
+
+      - Take your time as much as you can 
+
+  Steps to create an HTML page (.html)   
+  ************************************ 
+
+    Step 1: Always create a folder for every project you work on 
+
+      - To do this, go to your favorite working location and create a folder
+      - Give the folder a proper name that relates with your project 
+
+    Step 2: Open the folder using your editor (VS) 
+
+    Step 3: Create an HTML document 
+
+      - An HTML document is a simple text file with a .html extension 
+      - Save that file with in your working folder 
+
+    Step 4: Define the DOCTYPE  
+
+      - The first line of any HTML document starts by defining the HTML doctype 
+      
+      - Since we are writing the HTML5 standard, the way to define the doctype is just including the following line at the top of the document 
+
+        <!DOCTYPE html> 
+
+    Step 5: Include the initial HTML boiler tags 
+
+      - These boiler tags are the ones which are part of every HTML document 
+      - It includes the <html>, <head> and <body> tags. 
+      - Make sure all of them are closed properly 
+        - Tip: Visual Studio can help you create these quickly 
+
+    Step 6: Give title for your document 
+      
+      - This is defined with in the <title> tag under the <head> section 
+      - At this point, you would have a starter HTML document ready 
+
+    Step 7: Start including the contents to your document 
+
+      - The main content of your HTML document is included with in the <body> tag 
+
+      - Always start by including an <h1> tag 
+        - <h1> is the main header tag used as the main title of your document 
+        - This header is different form the title you already included inside the <title> tag 
+        - An HTML document is suppose to have only a single <h1> tag. If you want to include more headings, use the <h2> - <h6> 
+
+      - All the other tags you use are dependent on the type of content you want to include 
+
+  Building a page that contains all of the common HTML Tags
+  ********************************************************* 
+    - CommonlyUsedHTMLTagsList
+
+    https://www.w3schools.com/html/html_form_elements.asp
+
+  Building the "Terms of Use" page of apple.com 
+  ******************************************** 
+    - https://www.apple.com/legal/internet-services/terms/site.html
+
+    - Tags we will use 
+      <h1> 
+      <small> 
+      <hr> 
+      <section> 
+      <h2>
+      <p> 
+      <a>
+      <ul>
+      <li> 
+      <em> 
+
+  Assignment before next week:
+  **************************** 
+    1. Go through the HTML Checklist file and see if you understand the HTML classes 
+
+    2. Recreate the CommonlyUsedHTMLTags.html file on your own 
+
+    3. Work on the practice exercises 
+
+    4. Watch the next week CSS class videos 
+
+  Practice exercises
+  *******************
+
+      Practice 1: 
+        - Create a folder called "First Project" on your desktop 
+        - Create a folder called "images" with in your "First Project" folder 
+        - Download 2 images from the Internet and include both of them inside the "images" folder 
+        - Rename the images to image1 and image2. (Keep the image extensions as is)
+        - Create an HTML document called "imagepractice" in your "First Project" folder 
+        - Follow all the 7 steps included inside the class note and add the initial HTML tags 
+        - Give the document a title of "Image practice" and a heading of "My first HTML document"
+        - Add one h2 tag that says First image and another h2 tag that says Second image 
+        - Right under the headings, include the images 
+        - Open the file on your browser and make sure everything is working 
+
+      Practice 2: 
+        - Re-create Apple store's Sales Policies page 
+          https://www.apple.com/shop/browse/open/salespolicies 
+
+
+      Practice 3: 
+        - Start by going through the commonly used HTML tags file you can find on the website. Understand what each of them do. 
+          https://www.evangadi.com/courses/full-stack/class3/Commonly%20Used%20HTML%20Tags.txt
+
+        - Check out how the common tags can be used. You can also find this on the website. It is a zipped folder. Don't forget to unzip it first. 
+          http://evangadi.com/courses/full-stack/HTML/CommonHtmlTags.zip
+
+        - Create your own CommonHtmlTags.html file and re-write them and see how they look on the website. 
+
+
+

@@ -1,0 +1,42 @@
+CSS Basics Checklist 
+********************
+  - What is CSS? 
+  - What is the purpose of CSS? 
+  - Can CSS exist with out HTML? 
+  - What is the difference between em and px? 
+  - Can we make our CSS development easier by better organizing the HTML? 
+  - Do you understand what the 4 main container HTML elements are? 
+  - How can you add CSS on your HTML? 
+  - What is the difference between inline CSS and external CSS? 
+  - What is the difference between classes and ids? 
+  - Why do we even need classes and ids? 
+  - Do you understand what selecting is in CSS? 
+  - What is the difference between these selectors 
+    - Class selector 
+    - ID selector 
+    - Type selector 
+    - Star selector 
+    - Descendant selector 
+    - Hover selector
+  
+  - How do you select an HTML element using its class? 
+  - How do you create specific selection in CSS and avoid selecting multiple elements 
+
+
+Assignment
+********** 
+
+	Puppy lovers page 
+		- Build the structure of the Puppy lovers page   
+
+  Watch the next class video about CSS properties 
+    - https://www.youtube.com/watch?v=VL9-t9jSdys
+
+  Bonus: 
+    - Try to properly style the puppy lovers page 
+    (Will be covered tomorrow) 
+
+
+
+
+

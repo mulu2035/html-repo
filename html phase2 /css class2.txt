@@ -1,0 +1,332 @@
+********************************* 
+  CSS - Cascading Styling Sheet   
+********************************* 
+
+	- Today's session
+
+		- Understanding CSS
+			- What is CSS?
+			- Adding CSS instructions on HTML 
+				
+		- Key CSS concepts to understand
+			- CSS units 
+			- Thinking in terms of containers 
+			- Naming elements 
+			- Selecting specific elements
+			
+
+		- CSS properties 
+			- Common CSS properties 
+
+
+Understanding CSS
+***************** 
+
+	What is CSS? - Cascading Style Sheets  
+	************************************* 
+
+		- CSS is a set of instructions telling the browser what to do with the HTML elements. 
+			Eg: 
+				- What the color of an element should be 
+				- Where exactly an element should be placed on the browser  
+				- How wide or tall an element should be 
+				- As the name indicates, the styling in general  
+
+		- Note: CSS is useless without the HTML elements to apply the instructions on 
+
+	CSS Versions 
+	************
+		
+		- CSS3 is the latest version of CSS 
+		
+		- CSS3 is developed on top of the main principles of the previous versions. It just made things simpler and added a couple of additional features. 
+		
+		- Just focus on CSS3 as everything from the previous versions is included in it
+		
+		- Just so you know a little bit more about the differences, refer to this link 
+			- https://hackr.io/blog/difference-between-css-css2-and-css3  
+
+
+	Sending styling instructions to the browser 
+	******************************************* 
+
+	Your job is to make the browser understand what you are trying to accomplish 
+		- Your browser is the builder. You are only allowed to send instructions on how it should build it (Technical term: Render it)
+
+		- If you follow the standard way of telling the browser what to do with your HTML elements, it translates it the right way and renders it in the way you want  
+
+		- You use the combination of HTML and CSS to accomplish that 
+
+		- It is like sending a written instruction to someone who is suppose to reorder your house in a way you want it 
+				(No pictures or videos allowed. Just written instruction)
+
+			- Let's say the person reordering your house only speaks English. You don't have to know or use every single English word to effectively communicate with this person. 
+					- You just have to use the words you know effectively.  
+
+		- In this case, you are directly communicating with the browser. Same concept.  
+
+	Adding CSS instructions on HTML 
+	******************************* 
+		
+		- There are multiple ways of adding CSS instructions on our HTML 
+
+		- Adding CSS instructions on the HTML file (On file)
+			
+			- We use the <style> tag to add CSS instructions directly on the HTML
+			- This is usually done inside the <head> tag 
+
+			- Eg: 
+				- Add an on file style that changes the background of the body tag to red  
+
+		- Inline
+			
+			- The main difference between the Inline styling and on file styling is that:
+				- Inline styling is directly applied inside the opening tag of the html element 
+
+			- We use the "style" property for that
+
+			- Eg: 
+				- Add an inline style on the <body> tag to change the background color to blue 
+
+
+		- External CSS file 
+			
+			- This is the recommended way of including your CSS instructions on your HTML file 
+
+			- The main concept is to create a separate css file containing all of the CSS instructions and link back (include) this css file on the html file. 
+
+			- We use the <link> tag for that 
+
+			- This is usually done inside the <head> tag
+
+			- Eg: 
+				- Add an external css file to change the background color to purple  
+
+Key CSS concepts to understand 
+****************************** 
+
+	CSS units
+	********* 
+
+		- Having a clear understanding of the measuring units is the bases for any design and styling job 
+
+		- There are a couple of commonly used measurement Units on CSS 
+
+		- The most common one is the pixel (px). It is the size of 1/96th of an inch (0.26mm)
+
+		- You have to train your brain to think in terms of pixels from now on  
+
+		- Other commonly used units 
+			- % 
+				- This is when you want to describe your element in relation with other elements. Usually the containing elements 
+
+			- em and rem
+				- These are usually to define font sizes 
+				- We use em to define font sizes in relation to the containing elements font size 
+				- We use rem to define font sizes in relation to the base font size 
+			
+		- For further reading about CSS units, refer to this link 
+			https://www.w3schools.com/cssref/css_units.asp
+
+			- Eg: 
+				- Add some width and height to a div 
+
+		
+
+	Thinking in terms of containers:  
+	Organization comes before styling 
+	*********************************  
+		
+		- This concept of wrapping elements in containers is the key in mastering CSS
+
+		- Note that the wrappers or containers are HTML elements. The styling is mostly applied on them.  
+
+		- Commonly used HTML containers 
+			
+			<header>
+			<section>
+				<div>
+			<footer>
+			
+		- Before you even start writing a single CSS instruction, make sure to focus on organizing your HTML elements. 
+			- Organizing your HTML means, Bundle related elements together with in a container. 
+			- Try to think of the best way to group your elements together 
+
+		- To help you understand what we mean by "Thinking in terms of containers" lets work on a small project called "The Puppies Page" together 
+			- First thing first, every web page development starts with a design 
+				- Designers are responsible to provide that to you 
+					- Take a look at the Puppies page design 
+						- puppies-page-design.jpg 
+
+			- It is based on the design that you start to think about the structure of your HTML 
+				- Take a look at the conceptual containers you should think of before building your HTML 
+
+					- Only the containers 
+						- only-containers.jpg 
+					- Containers with content 
+						- containers-with-content.jpg 
+			
+			- Then you build your HTML matching the containers you imagined 
+				- Demo HTML 
+
+	Naming containers and elements 
+	*******************************
+
+		- Naming is applied on the HTML elements 
+
+		- Name every container in a way that is uniquely identifiable 
+
+		- It is these names we later use to specifically identify the element we want to style 
+
+			- We use classes & ids for naming elements  
+				- Classes over ids are just names given to a specific HTML element 
+				- You can give any name you think is appropriate 
+
+			- Classes 
+				- Are like family names
+				- Can be used multiple times 
+				- We use the "class" property to give a class name to an HTML element
+
+				Eg: 
+					- class="puppy-container"
+
+			- IDs 
+				- Are like unique names 
+				- You shouldn't have similar ID names in a single page 
+				- We use the "id" property to give an id to an HTML Element 
+
+				Eg: 
+					- id="banner-image"
+
+	Selecting specific elements
+	*************************** 
+
+		- Like we have said earlier, CSS is just a set of instructions the browser should follow to render the HTML elements 
+
+		- To write CSS instructions for an HTML element, we need to first correctly identify the element. This is what selecting means 
+
+		- There are multiple ways of selecting a specific HTML element 
+
+			-  Here is a useful link listing out the 30 most used CSS selectors 
+			https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 
+
+			- We are going to focus on some of them in here 
+
+			Class selector 
+			************** 
+
+				- This is a way of selecting an HTML element using their class name 
+
+				- We use the dot (.) identifier for that 
+
+				Eg: 
+					.className { /* a . followed by the class name of the HTML element */
+						/* Instruction goes in here */
+						/* In between the curly braces */
+					}
+
+					.bold-title {
+						color: red;
+						font-weight: bold; 
+					}
+
+
+			ID selector 
+			************** 
+
+				- This is a way of selecting an HTML element using their ID 
+
+				- We use the dot (#) identifier for that 
+
+				Eg: 
+					#id { /* a # sign followed by the ID of the HTML element */
+						/* Instruction goes in here */
+						/* In between the curly braces */
+					}
+
+					#header-wrapper{
+						background-color: black; 
+					}
+
+			Type Selector 
+			*************
+				- This is a way of selecting an HTML element based on their type 
+				
+				- This is useful when we want a specific HTML element type to behave on a certain way  
+
+				Eg: 
+					- If we want all the links on our website to be of color red 
+
+					a {
+						color: red; 
+					}
+
+
+			The star  
+			******** 
+
+				- This is when we want to apply a certain instruction on every single HTML element 
+
+				Eg: 
+
+					- If we dont want any of the HTML elements to have a margin 
+						- Margin is just the space out side of an elements boarder 
+
+					* {
+						margin: 0; 
+					}
+
+
+			Descendant Selector 
+			*******************
+
+				- Sometimes, just using the class name or the element type might not provide a specific enough selection as we want to 
+
+				- We use descendant selector style for that 
+
+				- You can assume this as using the full name of a person 
+					- Sometimes, some people have the same first name. We need to add their last name to be specific
+
+					- The Parent & Child concept 
+						- The outer wrapper of an HTML tag is called the parent 
+						- The one in the inside is the child 
+
+				Eg: 
+					- Make every link on the website to be of color red, exept when the link is inside the header. If in header, make it white  
+
+					a {
+						color: red; 
+					}
+
+					#header-wrapper a { 
+						color: white;
+					}
+					/* Note that css uses the parent name first style */
+
+
+			Hover Selector  
+			************** 
+				- This is more of an action selector 
+
+				- Gets activated when you hover your cursor on an HTML element
+
+				- For example, when we hover over an anchor link. 
+					- You can add CSS instructions when a specific action is taken on an HTML element.
+					- Say for example, change the color of the link to green and underline it, when people hover over it  
+
+				Ex: 
+					a:hover {
+						color: green;
+						text-decoration: underline;
+					}
+	
+
+
+Assignment
+********** 
+
+	Puppy lovers page 
+		- Build the structure of the Puppy lovers page   
+
+  Watch the next class video about CSS properties 
+    - https://www.youtube.com/watch?v=VL9-t9jSdys

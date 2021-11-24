@@ -1,0 +1,112 @@
+Class Project 1
+*************** 
+
+	Re-building apple.com's front page  
+	**********************************  
+
+	Website/Application/Software Development Life Cycle (SDLC)
+	**********************************************************
+
+
+			Goal 
+			
+			Requirement Analysis 
+				- What is the goal we want to achieve? 
+				- How can the website help to achieve that? 
+
+					- Research phase 
+					- Analysis and scoping phase 
+
+			Design 
+				- Content development phase 
+				- Wire-frame phase
+				- Design phase  
+			
+			Development 
+				- Website development phase 
+					(Where you come in)
+			
+			- Testing phase 
+			
+			- Launch 
+			
+			- Maintenance 
+
+
+	Website development phase
+	************************* 
+
+		- This is the stage where you get called into action 
+		
+		- At this time, the following are already designed and ready 
+			- Content 
+			- Navigation/Wire-frame 
+			- Design (including the images to use)
+
+		- Your job is to convert all this into a website 
+
+
+
+	Before starting to build any website 
+	************************************
+
+		Step 0: Gather all the necessary components 
+			- Design 
+			- Content 
+			- Images 
+
+			(Refer to the Apple requirements folder)
+
+		Step 1: Take a look at the design and try to draft out how to organize the pieces using containers 
+			- Make sure to think of every single piece on the design 
+			- Think about nested containers too 
+
+			(Refer to: "brain-storming-the-html-structure.txt" document)
+
+		Step 2: Convert the initial draft of the structure you came up with into HTML 
+
+			(Refer to: "converting-the-thought-out-structure-into-html.txt" document)
+
+		Step 3: Give names to your containers 
+			- Classes and Ids 
+
+		Step 4: Prepare the folder structure to get started 
+
+			Folder Structure
+				- Project folder (Root)
+					- images folder
+						- Organize and put all the images you are going to need 
+
+					- css folder
+						- Create a css file 
+
+					- js folder
+						- Create a JavaScript file 
+
+					- Create the main html document 
+						- Name it index.html 
+
+		Step 5: Start working on your development 
+
+
+	- This week's assignment  
+	***********************  
+
+		- Follow this video step by step and build Apple's home page 
+		https://www.youtube.com/watch?v=cWqmE5sc_cU 
+
+		- Here is a compressed file containing all you need 
+			http://evangadi.com/courses/full-stack/apple/html-css/ClassProject1.zip 
+	
+			- Files and folders included  
+				- "Apple requirements" folder 
+					- This contains the designs and images you need 
+				- "Before starting to code" folder 
+					- This contains the draft of your html structure 
+				- "apple-html-css-replica" folder 
+					- This contains the final written code 
+
+
+
+
+

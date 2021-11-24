@@ -1,0 +1,94 @@
+HTML class check list
+*********************  
+
+	HTML 
+	**** 
+
+		Basic HTML concepts 
+		******************* 
+
+			- Do you understand why HTML is called a Markup language? 
+			
+			- Do you understand the relationship between a Server, A client and HTML? 
+				- Server is the computer that you put your HTML code on. The job of this computer is to send the HTML code that exists on it. 
+				- Client is usually a browser that requests an HTML code, and renders it on to the browser for it to make sense visually 
+				- HTML is the code that is being sent and recieved. The browser that is recieving the code has a standard to convert it into something visual on the browser. 
+			
+			- Try to understand a little bit about the HTTP protocol 
+
+		HTML Tags
+		********* 
+
+			- Do you understand what opening and closing tags are? 
+			- Do you understand why some HTML elements dont need closing tags? 
+			- Do you understand the difference between an HTML element and it's attribute? 
+
+			- Do you understand how to use each of the common HTML tags? 
+				- Do you understand how to use <img> tag?  
+				- Do you understand how to use <a> tag?  
+				- Do you understand how to use <ul> and <li> tags? 
+				- Do you understand how to use <video> tag? 
+				- Do you understand how to make an HTML comment? 
+
+			- Special focus on the <img> and <a> tag
+				- Do you understand how to tell the image tag where to get the image from? Means do you know how to correctly use the "src" attribute? 
+
+				- Do you understand what relative path means? 
+					- Do you understand how to reference an image that is out side of the folder that contains the HTML file? (../)
+					- Do you understand how to reference an image that inside the folder that contains the HTML file? 
+
+				- Do you understand how you can add a URL inside of an href attribute for the <a> tag? 
+					Do you understand what a URL is? 
+						- A URL is the path you find at the top of a page you are visiting on your browser. Every page has a unique URL or path. It is that path you put inside the href attribute. 
+
+
+Assignment before next week:
+**************************** 
+  1. Go through the HTML Checklist file and see if you understand the HTML classes 
+
+  2. Recreate the CommonlyUsedHTMLTags.html file on your own 
+
+  3. Work on the practice exercises 
+
+  4. Watch the next week CSS class videos 
+
+
+Practice Excersices
+*******************
+
+		Practice 1: 
+			- Create a folder called "First Project" on your desktop 
+			- Create a folder called "images" with in your "First Project" folder 
+			- Download 2 images from the Internet and include both of them inside the "images" folder 
+			- Rename the images to image1 and image2. (Keep the image extensions as is)
+			- Create an HTML document called "imagepractice" in your "First Project" folder 
+			- Follow all the 7 steps included inside the class note and add the initial HTML tags 
+			- Give the document a title of "Image practice" and a heading of "My first HTML document"
+			- Add one h2 tag that says First image and another h2 tag that says Second image 
+			- Right under the headings, include the images 
+			- Open the file on your browser and make sure everything is working 
+
+		Practice 2: 
+			- Re-create Apple store's Sales Policies page 
+				https://www.apple.com/shop/browse/open/salespolicies 
+
+
+		Practice 3: 
+			- Start by going through the commonly used HTML tags file you can find on the website. Understand what each of them do. 
+				https://www.evangadi.com/courses/full-stack/class3/Commonly%20Used%20HTML%20Tags.txt
+
+			- Check out how the common tags can be used. You can also find this on the website. It is a zipped folder. Don't forget to unzip it first. 
+				http://evangadi.com/courses/full-stack/HTML/CommonHtmlTags.zip
+
+			- Create your own CommonHtmlTags.html file and re-write them and see how they look on the website. 
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+* {
+	font: "Arial";  
+}
+body {
+	background: purple;
+}
+
+ul {
+	background: yellow;
+}
+
+header .someParagraph {
+	background: blue;
+}
+
+header .someParagraph:hover {
+	background: green;
+}
+
+.someSection .someParagraph {
+	background: blue;
+}
+
+#someID {
+	background: red;
+}
